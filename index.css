@@ -1,0 +1,46 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+label,
+input {
+    margin-right: 20px;
+}
+
+.card {
+    display: none;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postText {
+    font-size: 19px;
+}
+
+.comments {
+    display: block;
+    margin: 20px auto;
+}
+
+.comment {
+    font-size: 14px;
+}
+
+.commentText {
+    color: blue;
+    margin-bottom: 0;
+}
+
+.commentEmail {
+    margin: 0 0 30px;
+}
